@@ -18,6 +18,7 @@ public class App {
         long startTime = System.nanoTime();
 
         MergeSort.merge_sort_start(arr);
+        //Quicksort.quicksort( arr );
         //MergeSortLinkedLists.merge_sort_start(arr);
         //MergeSortCircularArrayLists.merge_sort_start(arr);
         long timeElapsed = System.nanoTime() - startTime;
