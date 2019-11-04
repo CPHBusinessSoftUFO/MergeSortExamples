@@ -7,7 +7,7 @@ public class App {
     public static void main( String[] args ) {
 
         //== create and fill array
-        int max = 200_000;
+        int max = 2000_000;
         int[] arr = new int[ max ];
         Random ran = new Random();
         for ( int i = 0; i < arr.length; i++ ) {
@@ -30,7 +30,7 @@ public class App {
         }
         System.out.println( arr[ 19 ] + ", ..." );
 
-        System.out.println( "Time elapsed (micro sec): " + timeElapsed / 1000 );
+        System.out.println( "Time elapsed (millisec): " + timeElapsed / 1_000_000 );
     }
 
 }
